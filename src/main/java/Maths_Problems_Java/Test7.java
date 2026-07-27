@@ -1,8 +1,14 @@
 package Maths_Problems_Java;
 //gcd
 // 10,20
+/*
+Yes. GCD and HCF mean the same thing. ✅
+
+GCD = Greatest Common Divisor
+HCF = Highest Common Factor
+ */
 public class Test7 {
-    static void main(String[] args) {
+    public  static void main(String[] args) {
         int a = 10;
         int b = 20;
         int gcd = 1;

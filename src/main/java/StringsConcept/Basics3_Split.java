@@ -1,7 +1,7 @@
 package StringsConcept;
 
 /*
-SplitMethod - we can split based on the Charater
+SplitMethod - we can split based on the Charater it will retun a Array
  */
 
 public class Basics3_Split {

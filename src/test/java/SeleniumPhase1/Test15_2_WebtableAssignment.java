@@ -20,10 +20,11 @@ public class Test15_2_WebtableAssignment {
         System.out.println(coloumns.size());
 
         //Find the BookNames with Author as Mukesh
-        for(int r =2; r<=rows.size(); r++){
-            String value = driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]//td[2]")).getText();
+        // I rows
+        for(int i =2; i<=rows.size(); i++){
+            String value = driver.findElement(By.xpath("//table[@name='BookTable']//tr["+i+"]//td[2]")).getText();
             if(value.equals("Mukesh")){
-                String bookName = driver.findElement(By.xpath("//table[@name='BookTable']//tr["+r+"]//td[1]")).getText();
+                String bookName = driver.findElement(By.xpath("//table[@name='BookTable']//tr["+i+"]//td[1]")).getText();
                 System.out.println(bookName+"   "+value);
             }
         }

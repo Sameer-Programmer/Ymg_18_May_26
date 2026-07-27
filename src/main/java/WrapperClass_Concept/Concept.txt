@@ -12,7 +12,7 @@ boolean --> Boolean
 1) String ---> int ---> Integer.parseint(String Value);
 2) String ----> double ---> Double.parsedouble(String Value);
 3) String ----> bool -----> Boolean.parseBoolean(Strig Value);
-4) String -----> char ----> Nt possibel==>> All primitive types are possibel except this char
+4) String -----> char ----> Not possible==>> All primitive types are possible except this char
 
 
 convert any data type to String

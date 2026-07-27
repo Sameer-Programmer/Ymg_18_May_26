@@ -21,6 +21,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
@@ -33,7 +34,7 @@ public class Test12_Dropdowns_SelectClass {
         driver.manage().window().maximize();
         driver.get(url);
 
-       WebElement dropdown = driver.findElement(By.cssSelector("select[id='country']"));
+        WebElement dropdown = driver.findElement(By.cssSelector("select[id='country']"));
         Select select = new Select(dropdown);
         select.selectByIndex(2);
 
@@ -41,31 +42,29 @@ public class Test12_Dropdowns_SelectClass {
         select.selectByVisibleText("Canada");
 
 
-        List<WebElement> options =select.getOptions();
+        List<WebElement> options = select.getOptions();
         System.out.println(options.size());
 
-        for(WebElement option:options){
+        for (WebElement option : options) {
             System.out.println(option.getText());
         }
 
 
         // MultiSelectDropdowns
 
-        WebElement coloursdropdown = driver.findElement(By.xpath("//select[@id='colors']"));
+        WebElement coloursdropdown =
+                driver.findElement(By.xpath("//select[@id='colors']"));
         Select selectcolours = new Select(coloursdropdown);
         selectcolours.selectByValue("red");
         selectcolours.selectByValue("blue");
 
+        List<WebElement> list =selectcolours.getAllSelectedOptions();
+        Assert.assertEquals(list.get(0).getText(),"Red");
+        Assert.assertEquals(list.get(1).getText(),"Blue");
+        System.out.println("Script ran Success");
+
         Thread.sleep(3000);
-
-
-
-       driver.quit();
-
-
-
-
-
+        driver.quit();
 
 
     }

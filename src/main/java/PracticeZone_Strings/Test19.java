@@ -15,7 +15,8 @@ public class Test19 {
                 reverse = reverse + arr[i];
             } else {
                 // All other words: reverse their characters
-                reverse = reverse + new StringBuilder(arr[i]).reverse().toString() + " ";
+                reverse =
+                        reverse + new StringBuilder(arr[i]).reverse().toString() + " ";
             }
         }
 

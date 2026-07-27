@@ -34,7 +34,7 @@ case 1- Exception Occured , catch block handles - finally block will execute
 case 2 - Exception Occured , catch block NOT  handled - finally block will execute
 case 3 - Exception Not Occured , catch block ignored --> finally block will execute
 
-throw      -> Creates and throws an exception.
+throw      -> The throw keyword is used to explicitly create and give an exception
 
 throws     -> Declares that a method may throw an exception
               and passes the handling responsibility to the caller.

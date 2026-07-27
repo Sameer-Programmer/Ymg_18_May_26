@@ -1,7 +1,7 @@
 package Maths_Problems_Java;
 //Prime NUmber check
 
-public class Test1 {
+public class Test1_PrimeNumber {
     public static void main(String[] args) {
 
         int num = 7;

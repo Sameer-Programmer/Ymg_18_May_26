@@ -17,6 +17,7 @@ public class Test4_Waits {
         driver.manage().deleteAllCookies();
         String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
         driver.get(url);
+
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 
         //<input data-v-1f99f73c="" class="oxd-input oxd-input--active" name="username"
@@ -31,6 +32,8 @@ public class Test4_Waits {
         linkOrangeHRM.click();
         driver.close();
         driver.quit();
+
+
 
 
     }

@@ -40,6 +40,12 @@ public class Test27_KeyBoardActions {
                 .keyUp(Keys.CONTROL)
                 .perform();
 
+        Actions actions1 = new Actions(driver);
+        actions1.keyDown(Keys.CONTROL)
+                .sendKeys("A")
+                .keyUp(Keys.CONTROL)
+                .perform();
+
 
     }
 }

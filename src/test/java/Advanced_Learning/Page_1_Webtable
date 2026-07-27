@@ -9,7 +9,7 @@ How we have to Observe Webtable
 
 with tr tag we can Get total Rows --//table[@name='BookTable']//tr--All rows
 with combination of tr and th --> only columns-of first row --//table[@name='BookTable']//tr[1]//th
-with combination of tr and td --->we will get all cells exclusing first row //table[@name='BookTable']//tr//td
+with combination of tr and td --->we will get all cells exclusding first row //table[@name='BookTable']//tr//td
 
 So we deal with rows from i = 2
 

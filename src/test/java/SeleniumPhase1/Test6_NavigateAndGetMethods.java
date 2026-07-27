@@ -41,4 +41,8 @@ public class Test6_NavigateAndGetMethods {
 driver.get() is used mainly to load a webpage,
 whereas driver.navigate().to() is part of Selenium's Navigation interface
 and allows additional browser navigation actions such as back, forward, and refresh.
+
+driver.get() is mainly used to open a URL in the browser.
+driver.navigate() provides additional browser navigation capabilities
+ such as to(), back(), forward(), and refresh().
  */

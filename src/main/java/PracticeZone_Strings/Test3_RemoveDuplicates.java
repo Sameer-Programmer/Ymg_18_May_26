@@ -3,7 +3,7 @@ package PracticeZone_Strings;
 import java.util.*;
 
 public class Test3_RemoveDuplicates {
-    static <charArray> void main(String[] args) {
+   public static <charArray> void main(String[] args) {
        String input = "aabbeccdabc";
        char [] arr = input.toCharArray();
 
@@ -31,15 +31,5 @@ public class Test3_RemoveDuplicates {
                break;
            }
        }
-
-
-
-
-
-
-
-
-
-
     }
 }

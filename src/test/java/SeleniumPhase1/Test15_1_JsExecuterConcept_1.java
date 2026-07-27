@@ -21,7 +21,7 @@ we can scroll up to end
 
  */
 
-public class Test15_1_JsExecuterConcept_1 {
+public class  Test15_1_JsExecuterConcept_1 {
     static void main(String[] args) throws InterruptedException {
         String url =  "https://in.trip.com/";
         WebDriver driver = new ChromeDriver();
@@ -51,6 +51,9 @@ public class Test15_1_JsExecuterConcept_1 {
       // to scromm bottom of page
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
         System.out.println(js.executeScript("return window.pageYOffset"));
+
+
+
 
 
 

@@ -25,8 +25,8 @@ public class Test35_DataDriven_Reading {
         // rows Counting from 0
         // Cells counting from 1
 
-        for(int r = 0 ; r<=totalRows; r++){
-            XSSFRow row = sheet.getRow(r);
+        for(int i = 0 ; i<=totalRows; i++){
+            XSSFRow row = sheet.getRow(i);
             for(int c =0; c<totalCellsinaRow; c++){
                 XSSFCell cell = row.getCell(c);
                 System.out.println(cell.toString());

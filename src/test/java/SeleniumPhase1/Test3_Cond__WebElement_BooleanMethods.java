@@ -16,11 +16,10 @@ public class Test3_Cond__WebElement_BooleanMethods {
         boolean status2 = name.isEnabled();
         System.out.println(status2);
 
-       WebElement radiobuttonMale =  driver.findElement(By.cssSelector("input[value='male']"));
+        WebElement radiobuttonMale =  driver.findElement(By.cssSelector("input[value='male']"));
         System.out.println(radiobuttonMale.isSelected());
         radiobuttonMale.click();
         System.out.println(radiobuttonMale.isSelected());
-
 
         driver.quit();
 
