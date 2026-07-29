@@ -15,7 +15,7 @@ import java.time.Duration;
  */
 
 public class Test11_Frames {
-    static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         String url = "https://demo.automationtesting.in/Frames.html";
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));

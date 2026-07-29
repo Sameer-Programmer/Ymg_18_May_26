@@ -1,0 +1,5 @@
+Interview memory
+
+String → Immutable
+StringBuffer → Mutable + Synchronized + Thread-safe
+StringBuilder → Mutable + Not synchronized + Faster

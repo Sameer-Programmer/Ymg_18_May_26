@@ -1,0 +1,10 @@
+Autoboxing:
+
+The automatic conversion of a primitive data type into its corresponding wrapper class object.
+
+int → Integer
+
+Unboxing:
+
+The automatic conversion of a wrapper class object into its corresponding primitive data type.
+Integer → int

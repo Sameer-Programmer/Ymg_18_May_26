@@ -16,7 +16,7 @@ public class Test37_FileDownload {
 
         Map<String, Object> prefs = new HashMap<>();
         //prefs.put("profile.default_content_settings.popoups",0);
-        prefs.put("profile.default_content_settings.popups", 0);
+      //  prefs.put("profile.default_content_settings.popups", 0);
         prefs.put("download.default_directory", downloadPath);
 //        prefs.put("download.prompt_for_download", false);
 //        prefs.put("download.directory_upgrade", true);

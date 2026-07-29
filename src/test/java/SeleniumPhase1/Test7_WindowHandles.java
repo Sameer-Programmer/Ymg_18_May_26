@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Set;
 
 public class Test7_WindowHandles {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
